@@ -1,5 +1,5 @@
 {
-  "name": "json-jql",
+  "name": "json-gql",
   "version": "0.0.3",
   "description": "Generate GraphQL query schema and MongoDB models from JSON data",
   "main": "index.js",

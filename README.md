@@ -5,12 +5,12 @@ Generate GraphQL schema (only query types for now) using a JSON file.
 #### This is still work in progress, so use it at your own risk.
 
 ##installation
-    npm install json-jql --save
+    npm install json-gql --save
 
 ##Examples:
 see the example in `example` direcotry
 
-    const JQL = require('json-jql');
+    const JQL = require('json-gql');
     const generator = new JQL();
     generator.addQueryType('user', {
       id: 'id', name: 'name',
