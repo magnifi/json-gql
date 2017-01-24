@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/magnifi/json-to-graphql.git"
+    "url": "git+https://github.com/magnifi/json-gql.git"
   },
   "keywords": [
     "graphql",
@@ -19,9 +19,9 @@
   "author": "Mohamed",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/magnifi/json-to-graphql/issues"
+    "url": "https://github.com/magnifi/json-gql/issues"
   },
-  "homepage": "https://github.com/magnifi/json-jql#readme",
+  "homepage": "https://github.com/magnifi/json-gql#readme",
   "dependencies": {
     "ansicolors": "^0.3.2",
     "cardinal": "^1.0.0",

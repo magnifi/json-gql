@@ -104,7 +104,7 @@ class Defs {
         code += `type: ${graphType}`;
       }
       if(needResolve && !(opts && opts.resolve)) code += `
-      ,resolve: (${typeName}) => ${typeName}.${k}
+      resolve: (${typeName}) => ${typeName}.${k}
       `;
       code += `},`
     }
@@ -133,7 +133,7 @@ class Defs {
       }
       this.exports += ` ${typeName}: {
           type: ${getType(typeName)},
-          ${argsDef},
+          ${argsDef}
           ${resolver}
           },
       `;
@@ -165,7 +165,7 @@ class Defs {
     this.__code__ += `
     // Mongodb models definition
     `;
-    this.__code__ += this._dbCode;
+    // this.__code__ += this._dbCode;
     try{
       console.log(cardinal.highlight(
         this.format(this.__code__)
