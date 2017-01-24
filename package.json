@@ -1,6 +1,6 @@
 {
   "name": "json-jql",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Generate GraphQL query schema and MongoDB models from JSON data",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/magnifi/json-jql#readme",
   "dependencies": {
+    "ansicolors": "^0.3.2",
     "cardinal": "^1.0.0",
     "js-beautify": "^1.6.8",
     "lodash": "^4.17.4",
